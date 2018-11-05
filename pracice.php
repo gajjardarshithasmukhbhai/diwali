@@ -1,5 +1,5 @@
 <?php
-	$con=mysqli_connect('localhost','root','','nikunj');
+	$con=mysqli_connect('localhost','id4910789_gajjar','Zxcvb@123','id4910789_diwali');
 	$uyt=$_POST['name'];
 	$query="insert into name(name)values('$uyt')";
 	$run=mysqli_query($con,$query);

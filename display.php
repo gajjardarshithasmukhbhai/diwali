@@ -95,7 +95,7 @@
     <div id="rtt"><h1 class="pp">26 January</h1> <center><img src="https://cdn.pixabay.com/photo/2012/04/25/00/34/wheel-41387__340.png" class="oip"></center></div>
 	<div id="opp">
         <?php
-            $con=mysqli_connect('localhost','root','','nikunj');
+            $con=mysqli_connect('localhost','id4910789_gajjar','Zxcvb@123','id4910789_diwali');
            $query="select *from name";
            $run=mysqli_query($con,$query);
             $num=mysqli_num_rows($run);
